@@ -8,7 +8,10 @@ function App() {
   });
   function sub(event) {
     const { value, name } = event.target;
-
+    //u even can use this instead of the whole if statement
+    //     setContact((prevValue) => {
+    //   return { ...prevValue, [name]: value };
+    // });
     if (name === "fName") {
       setContact((prevValue) => {
         return {
